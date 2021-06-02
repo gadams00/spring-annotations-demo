@@ -26,3 +26,5 @@ jobs:
           fetch-depth: 0
       - name: ingest
         uses: docker://moderne/ingest:latest
+        with:
+          args: --style-name spring
